@@ -1,0 +1,30 @@
+### Get all tasks
+GET http://localhost:8080/task
+
+### Create a task
+POST http://localhost:8080/task
+Content-Type: application/json
+
+{
+    "task": "learn flutter 2",
+    "time": "10:25"
+}
+
+### Get task by id
+GET http://localhost:8080/task/6556d178ee35be1f50e84789
+
+### Update task by id
+PATCH http://localhost:8080/task/65532f01b5c921f28481c5e2
+Content-Type: application/json
+
+{
+    "task": "do homework",
+    "time": "10:25"
+}
+
+### toggle task
+PUT http://localhost:8080/task/6554d047f54738e9036c4ddc/toggleTask
+
+### Delete task by id
+DELETE http://localhost:8080/task/65532a226d29685cebdb1281
+
