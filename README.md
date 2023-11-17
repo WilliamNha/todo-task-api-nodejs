@@ -22,7 +22,7 @@ This API uses MongoDB as database.
 
 Sample:
 
-```json
+```
 {
    "task": "watch netflix",
    "time": "10:25"
@@ -43,7 +43,7 @@ Sample:
 
 Sample:
 
-```json
+```
 {
    "task": "coding",
    "time": "11:25"
