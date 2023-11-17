@@ -33,11 +33,13 @@ Sample:
 ### Get all task
 
 **GET: /task**
+
 -----
 
 ### Get task by id
 
 **GET: /task/:id**
+
 -----
 
 ### Update task
