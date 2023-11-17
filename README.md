@@ -28,14 +28,17 @@ Sample:
    "time": "10:25"
 }
 ```
+-----
 
 ### Get all task
 
 **GET: /task**
+-----
 
 ### Get task by id
 
 **GET: /task/:id**
+-----
 
 ### Update task
 
@@ -49,6 +52,7 @@ Sample:
    "time": "11:25"
 }
 ```
+-----
 
 ### Delete task
 
