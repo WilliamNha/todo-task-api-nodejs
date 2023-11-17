@@ -27,6 +27,7 @@ Sample:
    "task": "watch netflix",
    "time": "10:25"
 }
+```
 
 ### Get all task
 
@@ -47,6 +48,7 @@ Sample:
    "task": "coding",
    "time": "11:25"
 }
+```
 
 ### Delete task
 
